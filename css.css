@@ -8,7 +8,7 @@ p{
     width: 100%;
     height: 100%;
     display: flex;
-    margin-right: 21%;
+    margin-right: 30%;
    
 }
 .divinc a{
@@ -475,6 +475,149 @@ transform: scale(1.06);
   margin: 0 auto;
   
 }
+.divpases{
+  width: 400px;
+  height: 100%;
+  box-sizing: border-box;
+  border: solid;
+  color: black;
+  
+  background-color: rgb(72, 68, 68);
+  display: flex;
+  transition: 3s;
+}
+.divpases div{
+  width: 100%;
+  height: 100%;
+}
+.divpases div h2{
+  width: 100%;
+  color: black;
+  
+}
+
+.h2{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3em;
+}
+.h2din{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2em;
+}
+.divnon{
+  margin-top: 1.5%;
+  width: 400px;
+  height: 100%;
+  transition: 3s;
+
+}
+.divnon p{
+  width: 400px;
+  margin: 0 auto;
+  transition: 2.5s;
+  color: transparent;
+  
+  
+}
+.divnon a{
+  text-decoration: none;
+}
+.divnon button{
+  color: transparent;
+  background-color: transparent;
+  border: transparent;
+  transition: 2.5s;
+  margin-left: 30%;
+}
+.divpases:hover>.divnon>a>button{
+  color: white;
+  background-color: black;
+  border: black;
+}
+
+.divpases:hover{
+  width: 850px;
+  border-radius: 35px;
+}
+.divpases:hover>div>.h2din{
+  display: none;
+
+}
+
+
+.divpases:hover > .divnon>p{
+  display: block;
+  color: black;
+  
+}
+.divlug{
+  width: 800px;
+  height: 100%;
+  box-sizing: border-box;
+  border: solid;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 1%;
+}
+.divlugim{
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.divlug div{
+  margin: 0 a;
+  height: 100%;
+}
+.divlug div h2{
+  color: white;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.divlug div div{
+  margin-left: 40%;
+}
+.divlug div div a{
+  text-decoration: none;
+}
+.pev{
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  
+}
+.divcom{
+  width: 800px;
+  height: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  border: solid;
+  color: black;
+  margin: 0 auto;
+  
+  margin-top: 1%;
+}
+.divcom p {
+  color: black;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 5em;
+  margin-bottom: 30%;
+}
+.divcom button{
+  margin-left: 46%;
+}
+
+
 
 
 
