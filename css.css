@@ -458,7 +458,7 @@ transform: scale(1.06);
   box-sizing: border-box;
   border: solid;
   color: white;
-  
+  transition: 2s;
 }
 .divio1 div p{
   margin-top: 30%;
@@ -466,6 +466,9 @@ transform: scale(1.06);
 }
 .divio1 div a{
   text-decoration: none;
+}
+.divio1:hover{
+  background-color: red;
 }
 
 .divfl{
